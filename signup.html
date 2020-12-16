@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">   
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: MediumSeaGreen;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color:  lavender;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: black;
+}
+
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: red;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+
+  .button {
+  border: none;
+  color: white;
+  padding: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: none;
+  cursor: pointer;
+}
+
+.button1 {
+
+
+  padding: 2px 30px;
+  border-radius: 12px;
+
+
+  background-color: orange;} 
+
+
+</style>
+</head>
+
+
+<body>
+
+<div class="topnav">
+  
+   <a href="home.html"><button class="button button1 "><b class="fantasy">TATKA</b></button></a>
+   <a href="home.html"><i class="fa fa-fw fa-home" style="color: MediumTurquoise"></i> Home</a>
+  <a href="about.html"><i class="fa fa-fw fa-user" style="color: MediumTurquoise"></i>About</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope" style="color: MediumTurquoise"></i> Contact</a>
+  <div class="topnav-right">
+  <a href="login.html"><i class="fa fa-user-circle-o" style="color: MediumTurquoise"></i> Log in</a>
+  <a href="ad.html"><button class="button button1 ">POST YOUR AD</button></a></div>
+
+
+
+    <div class="login-box">
+    <img src="image/avatar.png" class="avatar">
+        <h1>Signup Here</h1>
+            <form>
+            <p>Name</p>
+            <input type="text" name="username" placeholder="Enter Name">
+            <p>Email</p>
+            <input type="text" name="email" placeholder="Enter Email">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password">
+            <p>Confirm Password</p>
+            <input type="password" name="password" placeholder="Confirm Password">
+            <input type="submit" name="submit" value="Sign Up">
+            By signing up for an account you agree to our
+            Terms and Conditions
+            </form>
+
+        </div>
+    
+    </body>
+</html>
